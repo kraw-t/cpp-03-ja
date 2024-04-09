@@ -80,7 +80,7 @@ g++ -o main main.cpp led_controller.cpp -L. -lledcontroller
 
 ## タスク3
 
-`LedController` という名前のC++クラスを作成してください。このクラスでは、上記のCライブラリを使用してLEDライトを制御します。LEDの初期化、オン、オフ、状態の取得を行うためのメンバ関数をそれぞれ `initialize`、`turn_on`、`turn_off`、`get` という名前で実装します。
+`LedController` という名前のC++クラスを作成してください。このクラスでは、上記のCライブラリを使用してLEDライトを制御します。LEDの初期化、オン、オフ、状態の取得を行うためのコンストラクタそしてメンバ関数をそれぞれ、`turnOn`、`turnOff`、`getState` という名前で実装します。
 
 ## タスク4
 

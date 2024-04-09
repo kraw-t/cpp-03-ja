@@ -6,13 +6,13 @@
 
 TEST(LedControllerTests, TurnOn) {
     LedController led;
-    led.on();
+    led.turnOn();
     EXPECT_TRUE(led.getState());
 }
 
 TEST(LedControllerTests, TurnOff) {
     LedController led;
-    led.on();
-    led.off();
+    led.turnOn();
+    led.turnOff();
     EXPECT_FALSE(led.getState());
 }
